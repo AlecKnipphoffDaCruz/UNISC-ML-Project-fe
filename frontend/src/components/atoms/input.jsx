@@ -1,13 +1,13 @@
-export default function Input({onChange, style, placeHolder, type}){
-    
-    return(
+export default function Input({ onChange, style, placeholder, type = 'text', value }) {
+    return (
         <>
             <input
-                type={`${type}`}
+                type={type}
                 onChange={onChange}
                 className={style}
-                placeHolder={placeHolder}
+                placeholder={placeholder}
+                value={value}
             />
         </>
-    )
+    );
 }
