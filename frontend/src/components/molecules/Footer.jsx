@@ -11,51 +11,51 @@ export default function Footer(){
                             AIPE
                         </h2>
                         <p className="text-gray-400 text-sm leading-relaxed">
-                            AI Property Estimator - Revolutionizing real estate valuation with machine learning.
+                            Estimador de Imóveis com IA — revolucionando a avaliação imobiliária com aprendizado de máquina.
                         </p>
                     </div>
 
                     {/* Quick Links */}
                     <div>
-                        <h4 className="text-white font-bold text-lg mb-6">Quick Links</h4>
+                        <h4 className="text-white font-bold text-lg mb-6">Links Rápidos</h4>
                         <ul className="space-y-3">
                             <li>
-                                <a href="#" className="text-gray-400 hover:text-purple-400 transition">Home</a>
+                                <a href="#" className="text-gray-400 hover:text-purple-400 transition">Início</a>
                             </li>
                             <li>
-                                <a href="#" className="text-gray-400 hover:text-purple-400 transition">How It Works</a>
+                                <a href="#" className="text-gray-400 hover:text-purple-400 transition">Como Funciona</a>
                             </li>
                             <li>
-                                <a href="#" className="text-gray-400 hover:text-purple-400 transition">Get Estimate</a>
+                                <a href="#" className="text-gray-400 hover:text-purple-400 transition">Obter Avaliação</a>
                             </li>
                             <li>
-                                <a href="#" className="text-gray-400 hover:text-purple-400 transition">About Us</a>
+                                <a href="#" className="text-gray-400 hover:text-purple-400 transition">Sobre Nós</a>
                             </li>
                         </ul>
                     </div>
 
                     {/* Resources */}
                     <div>
-                        <h4 className="text-white font-bold text-lg mb-6">Resources</h4>
+                        <h4 className="text-white font-bold text-lg mb-6">Recursos</h4>
                         <ul className="space-y-3">
                             <li>
                                 <a href="#" className="text-gray-400 hover:text-purple-400 transition">Blog</a>
                             </li>
                             <li>
-                                <a href="#" className="text-gray-400 hover:text-purple-400 transition">Documentation</a>
+                                <a href="#" className="text-gray-400 hover:text-purple-400 transition">Documentação</a>
                             </li>
                             <li>
-                                <a href="#" className="text-gray-400 hover:text-purple-400 transition">FAQ</a>
+                                <a href="#" className="text-gray-400 hover:text-purple-400 transition">Perguntas Frequentes</a>
                             </li>
                             <li>
-                                <a href="#" className="text-gray-400 hover:text-purple-400 transition">Support</a>
+                                <a href="#" className="text-gray-400 hover:text-purple-400 transition">Suporte</a>
                             </li>
                         </ul>
                     </div>
 
                     {/* Contact */}
                     <div>
-                        <h4 className="text-white font-bold text-lg mb-6">Contact</h4>
+                        <h4 className="text-white font-bold text-lg mb-6">Contato</h4>
                         <ul className="space-y-3">
                             <li className="flex items-center">
                                 <span className="text-purple-400 mr-3">✉</span>
@@ -77,7 +77,7 @@ export default function Footer(){
 
                 {/* Social Links */}
                 <div className="border-t border-gray-800 pt-8 mb-8">
-                    <h4 className="text-white font-bold text-lg mb-6">Follow Us</h4>
+                    <h4 className="text-white font-bold text-lg mb-6">Siga-nos</h4>
                     <div className="flex gap-6">
                         <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-purple-600 hover:text-white transition">
                             f
@@ -98,16 +98,16 @@ export default function Footer(){
             {/* Bottom Footer */}
             <div className="border-t border-gray-800 bg-gray-900 bg-opacity-50">
                 <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between">
-                    <div className="text-gray-500 text-sm mb-4 md:mb-0">
-                        <p>© 2025 AIPE - AI Property Estimator. All rights reserved.</p>
+                        <div className="text-gray-500 text-sm mb-4 md:mb-0">
+                        <p>© 2025 AIPE — Estimador de Imóveis com IA. Todos os direitos reservados.</p>
                     </div>
                     <div className="flex gap-6 text-gray-500 text-sm">
-                        <a href="#" className="hover:text-purple-400 transition">Privacy Policy</a>
-                        <a href="#" className="hover:text-purple-400 transition">Terms of Service</a>
-                        <a href="#" className="hover:text-purple-400 transition">Cookie Policy</a>
+                        <a href="#" className="hover:text-purple-400 transition">Política de Privacidade</a>
+                        <a href="#" className="hover:text-purple-400 transition">Termos de Serviço</a>
+                        <a href="#" className="hover:text-purple-400 transition">Política de Cookies</a>
                     </div>
                     <div className="text-gray-500 text-sm mt-4 md:mt-0">
-                        <p>Developed by Students 👨‍💻</p>
+                        <p>Desenvolvido por Estudantes 👨‍💻</p>
                     </div>
                 </div>
             </div>

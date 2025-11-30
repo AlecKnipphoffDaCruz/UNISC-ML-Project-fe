@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+    import { useState, useEffect } from 'react';
 
 export default function Header(){
     const [isVisible, setIsVisible] = useState(false);
@@ -36,16 +36,16 @@ export default function Header(){
                 {/* Navigation Links */}
                 <nav className={`flex gap-8 transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
                     <a href="#home" className="text-white hover:text-purple-400 transition font-medium">
-                        Home
+                        Início
                     </a>
                     <a href="#how-it-works" className="text-white hover:text-purple-400 transition font-medium">
-                        How It Works
+                        Como Funciona
                     </a>
                     <a href="#estimate" className="text-white hover:text-purple-400 transition font-medium">
-                        Get Estimate
+                        Obter Avaliação
                     </a>
                     <a href="#contact" className="text-white hover:text-purple-400 transition font-medium">
-                        Contact
+                        Contato
                     </a>
                 </nav>
 
@@ -55,7 +55,7 @@ export default function Header(){
                         isVisible ? 'opacity-100' : 'opacity-0'
                     }`}
                 >
-                    Get Started
+                    Começar
                 </button>
             </div>
         </header>
